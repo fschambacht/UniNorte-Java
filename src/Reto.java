@@ -1,4 +1,3 @@
-import java.util.Locale; // import class locale to format output with comma
 import java.util.Scanner;
 
 public class Reto {
@@ -39,7 +38,7 @@ public class Reto {
             System.out.println("Continuar el control y la vigilancia");
         }
 
-        System.out.printf(Locale.FRENCH,"%.2f %n", overAltoIRCA); // output with format to get two decimal number and comma
+        System.out.printf("%.2f %n", overAltoIRCA); // output with format to get two decimal number
 
         if (noRisk){
             System.out.println("SI");
